@@ -1,0 +1,95 @@
+* {
+          margin: 0 ;
+          padding:  0 ;
+}
+
+body {
+          font-family: Helvetica, sans-serif;
+}
+
+section {
+          width: 90%;
+          margin: 0 auto;
+          padding: 2% 0 ;
+
+          border-top: 4px solid #000 ;
+          border-bottom: 4px solid #000 ;
+}
+
+h1 {
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 200%;
+          border: 2px solid #000000 ;
+          padding: 2%;
+          margin: 0 0 2% 0 ;
+}
+
+.container-1 {
+          background-color: #222;
+          position: relative;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 10px ;
+          padding: 1% 0 ;
+          color: #fff ;
+}
+
+.flexbox-1 {
+          width: 40%;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+}
+.flexbox-1-1 {
+          padding: 2% 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+}
+
+button {
+          padding: 2% ;
+          width: 150px ;
+          border-radius: 5px ;
+          border: 0 ;
+          font-size: 125% ;
+          color: #fff ;
+          cursor: pointer;
+          outline: 0 ;
+}
+
+.green-btn {
+          min-height: 60px;
+          background-color: #00cf00 ;
+}
+
+.red-btn {
+          min-height: 60px;
+          background-color: #db0000 ;
+}
+
+.age-input {
+          z-index: -1;
+          outline: 0;
+          border: 2px solid #740000 ;
+
+          background-color: #ffcfcf;
+          border-radius: 5px;
+}
+.age-input.active {
+          padding: 5%;
+          text-align: center;
+          color: #999 ;
+          z-index: 2 ;
+}
+
+.flexbox-1-2 {
+          color: #00cf00 ;
+          padding: 0 0 2% 0 ;
+          font-size: 200% ;
+}
