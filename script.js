@@ -18,9 +18,9 @@ function calcAgeInDays() {
                               // ONLY IF USER INPUT is anything else, DISPLAY OTHER RESULT
                               document.querySelector('.flexbox-1-2').textContent = 'You are invalid.'
                               document.querySelector('.flexbox-1-2').style.color = 'red'
-                    }
-          })
-}
+                    } 
+          }) 
+} 
 
 function resetAgeCalc() {
           document.querySelector('.age-input').classList.remove('active')
@@ -31,3 +31,7 @@ function resetAgeCalc() {
 
 
 /* CHALLENGE 2 */
+
+generateCat() {
+          create
+}
