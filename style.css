@@ -25,9 +25,8 @@ h1 {
           margin: 0 0 2% 0 ;
 }
 
-.container-1, .container-2 {
+.container-1, .container-2,.container-3 {
           background-color: #222;
-          position: relative;
           width: 100%;
           display: flex;
           flex-direction: column;
@@ -37,6 +36,9 @@ h1 {
           padding: 1% 0 ;
           color: #fff ;
 }
+.container-2 {
+          padding: 5% 0% ;
+}
 
 .flexbox-1, .flexbox-2 {
           width: 40%;
@@ -45,7 +47,7 @@ h1 {
           align-items: center;
           justify-content: space-around;
 }
-.flexbox-1-1,.flexbox-2-1 {
+.flexbox-1-1 {
           padding: 2% 0;
           display: flex;
           align-items: center;
@@ -94,17 +96,75 @@ button {
           font-size: 200% ;
 }
 
-.flex-box-2-2 {
-          width: 100vw;
-          height: 20vh;
+.flexbox-2-1 {
           display: flex;
           flex-wrap: wrap;
-          padding: 0 2% ;
-          background-color: #db0000;
-
+          align-items: center;
+          justify-content: space-around;
+          padding: 2% ;
 }
 
-.flex-box-2-2 img {
+.flexbox-2-1 img {
+          height: 300px;
+          width: 200px;
+          margin: 2% ;
+}
+
+.container-3 h1 {
+          background-color: #000 ;
+          color: #EEDB00 ;
+}
+
+.container-3 p {
+          font-size: 125% ;
+          line-height: 150% ;
+}
+
+#C3-desc-p {
+          color: #EEDB00 ;
+          font-size: 175% ;
+          line-height: 200% ;
+}
+
+#C3-vader-p {
+          color: #f00 ;
+}
+#C3-luke-p {
+          color: #2FF923 ;
+}
+#C3-obiwan-p {
+          color: #00c3ff ;
+}
+
+.flexbox-3 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100% ;
+          padding: 5% 0 ;
+}
+
+.flexbox-3 img {
           height: 200px ;
           width: 200px ;
+          margin: 0 2% ;
+          padding: 1% ;
+}
+
+#C3-vader-img:hover,
+#C3-vader-img:active {
+          background-color: #f00 ;
+          transition: 0.2s ;
+}
+
+#C3-luke-img:hover,
+#C3-luke-img:active {
+          background-color: #2FF923 ;
+          transition: 0.2s ;
+}
+
+#C3-obiwan-img:hover,
+#C3-obiwan-img:active {
+          background-color: #2719C7 ;
+          transition: 0.2s ;
 }

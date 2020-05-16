@@ -26,20 +26,32 @@
 
           <section class="section-2">
                     <div class="container-2">
-                              <h1>Challenge 2: Generate a Cat Image! </h1>
+                              <h1>Challenge 2: Generate a Rocket Image! </h1>
                               <div class="flexbox-2">
-                                        <button class="green-btn" onclick="generateCat()">Generate!</button>
+                                        <button class="green-btn" onclick="generateRocket()">Generate!</button>
+                                        <button class="red-btn" onclick="resetRocket()"> Reset </button>
                               </div>
-                              <div class="flexbox-2-1">
-                                        <input type="text" class="age-input" placeholder="Your age..." >
+                              <div class="flexbox-2-1"></div>
+                    </div>
+          </section>
+
+          <section class="section-3">
+                    <div class="container-3">
+                              <h1>Challenge 3: Vader, Luke, Obi-Wan</h1>
+                              <p id="C3-desc-p">The story is set before identity reveals</p>
+                              <p id="C3-vader-p">Darth Vader can defeat Obi-Wan Kenobi but CANNOT defeat Luke Skywalker</p>
+                              <p id="C3-luke-p">Luke Skywalker can defeat Darth Vader but CANNOT defeat Obi Wan Kenobi</p>
+                              <p id="C3-obiwan-p">Obi-Wan Kenobi can defeat Darth Vader but CANNOT defeat Luke Skywalker</p>
+                              <div class="flexbox-3">
+                                        <img class="vader" id="C3-vader-img" src="img/vader.png" onclick="dloGame( this )">
+                                        <img class="luke"  id="C3-luke-img" src="img/luke.png" onclick="dloGame( this )">
+                                        <img class="obiwan"  id="C3-obiwan-img" src="img/obiwan.png" onclick="dloGame( this )">
                               </div>
-                              <div class="flexbox-2-2">
-                                        <img src="../../STOCK/img/1624.jpg">
-                              </div>
+                              <div class="flexbox-3-1"></div>
                     </div>
           </section>
 </body>
 
-<script src="script.js" ></script>
+<script src="script.js" defer></script>
 
 </html>
